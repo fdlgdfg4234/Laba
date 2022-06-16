@@ -1,0 +1,21 @@
+﻿<Window x:Class="PhoneMaster.Description"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhoneMaster"
+        mc:Ignorable="d"
+        Title="Description" Height="450" Width="555" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Описание заказа" HorizontalAlignment="Left" Margin="35,38,0,0" VerticalAlignment="Top" Height="67" Width="215" FontSize="22" FontWeight="Bold" Foreground="#FF3580E4"/>
+        <Label Content="Модель телефона" HorizontalAlignment="Left" Margin="35,150,0,0" VerticalAlignment="Top" Height="67" Width="215" FontSize="20" FontWeight="Normal" Foreground="#FF3580E4" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label Content="IMEI" HorizontalAlignment="Left" Margin="35,222,0,0" VerticalAlignment="Top" Height="67" Width="215" FontSize="20" FontWeight="Normal" Foreground="#FF3580E4" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <Label Content="Выбор мастера" HorizontalAlignment="Left" Margin="35,294,0,0" VerticalAlignment="Top" Height="67" Width="215" FontSize="20" FontWeight="Normal" Foreground="#FF3580E4" FontFamily="Arial" HorizontalContentAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Margin="255,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="247" Height="34"/>
+        <TextBox HorizontalAlignment="Left" Margin="255,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="247" Height="34"/>
+        <ComboBox ItemsSource="{Binding Status}" DisplayMemberPath="Masters" Name ="CmbMaster" HorizontalAlignment="Left" Margin="258,294,0,0" VerticalAlignment="Top" Width="244" Height="34"/>
+        <Button Content="Далее" HorizontalAlignment="Left" Margin="332,360,0,0" VerticalAlignment="Top" Height="34" Width="96" FontSize="16" Click="Button_Click"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="208,360,0,0" VerticalAlignment="Top" Height="34" Width="96" FontSize="16" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

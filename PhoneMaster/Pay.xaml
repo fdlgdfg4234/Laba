@@ -1,0 +1,20 @@
+﻿<Window x:Class="PhoneMaster.Pay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhoneMaster"
+        mc:Ignorable="d"
+        Title="Pay" Height="450" Width="555" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Выберите способ оплаты:" HorizontalAlignment="Left" Margin="48,58,0,0" VerticalAlignment="Top" Height="36" Width="230" FontSize="14"/>
+        <Label Content="С помощью номера телефона" HorizontalAlignment="Left" Margin="48,99,0,0" VerticalAlignment="Top" Height="35" Width="230" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Введите ваш номер телефона:" HorizontalAlignment="Left" Margin="48,134,0,0" VerticalAlignment="Top" Height="35" Width="230" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Margin="278,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" Height="22"/>
+        <Button Content="Использовать карту" HorizontalAlignment="Left" Margin="48,217,0,0" VerticalAlignment="Top" Height="41" Width="182" FontSize="14" Click="Button_Click_2"/>
+        <Label Content="Либо" HorizontalAlignment="Left" Margin="48,169,0,0" VerticalAlignment="Top" Height="35" Width="230" FontSize="14"/>
+        <Button Content="Далее" HorizontalAlignment="Left" Margin="292,304,0,0" VerticalAlignment="Top" Height="42" Width="121" FontSize="14" Click="Button_Click_1"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="156,304,0,0" VerticalAlignment="Top" Height="42" Width="122" FontSize="14" Click="Button_Click"/>
+
+    </Grid>
+</Window>
